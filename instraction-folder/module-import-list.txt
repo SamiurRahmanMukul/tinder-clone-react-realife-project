@@ -1,0 +1,8 @@
+=====> Tinder Clone || React Font End Dev NPM Module Install <=====
+
+1. Material UI Install -
+			npm install @material-ui/core
+			npm install @material-ui/icons
+
+2. Tinder Card Install -
+			npm install --save react-tinder-card
