@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import ReactTinderCard from "react-tinder-card";
 import Style from "./TinderCards.module.css";
-
-// import axios from "../../axios";
+import axios from "../../axios";
 
 const TinderCard = () => {
-  // TODO: hardcoded data below
+  /* // TODO: hardcoded data below
   const [people, setPeople] = useState([
     {
       names: "Ariful Islam Jibon",
@@ -27,9 +26,9 @@ const TinderCard = () => {
       photo_url:
         "https://scontent.fdac12-1.fna.fbcdn.net/v/t1.0-9/93426676_694607031295481_4243160966683951104_o.jpg?_nc_cat=109&ccb=3&_nc_sid=09cbfe&_nc_ohc=kUrXgSgPHhoAX8dj7qn&_nc_ht=scontent.fdac12-1.fna&oh=5df58b00841bf1fd06a470f859bf46dc&oe=604D11D2",
     },
-  ]);
+  ]); */
 
-  /* // TODO: font end hooking to backend
+  // TODO: font end hooking to backend
   const [people, setPeople] = useState([]);
 
   useEffect(() => {
@@ -40,7 +39,7 @@ const TinderCard = () => {
     }
 
     fetchData();
-  }, []); */
+  }, []);
 
   // react tinder function
   const swiped = (direction, nameToDelete) => {
