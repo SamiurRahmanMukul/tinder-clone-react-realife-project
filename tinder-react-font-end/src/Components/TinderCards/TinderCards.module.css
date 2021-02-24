@@ -1,0 +1,57 @@
+.Tinder__Card {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.Card__Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.Main__Card {
+  position: relative;
+  background-color: #ffffff;
+  width: 600px;
+  padding: 20px;
+  max-width: 85vh;
+  height: 50vh;
+  box-shadow: 0px 18px 53px rgba(0, 0, 0, 3);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.Card__Swipe {
+  position: absolute;
+  cursor: move;
+}
+
+.Person__Name {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+
+  color: #101010;
+  background: #ffffff;
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+
+.Person__Name:hover {
+  cursor: zoom-in;
+  font-size: 26px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -ms-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
