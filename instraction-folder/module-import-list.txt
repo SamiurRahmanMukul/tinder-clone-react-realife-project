@@ -6,3 +6,27 @@
 
 2. Tinder Card Install -
 			npm install --save react-tinder-card
+
+=====> Tinder Clone || Node Font End Dev NPM Module Install <=====
+
+3. node ☋ initial (Tinder Clone) -
+			npm init
+			npm i express mongoose
+
+4. node module install globally -
+			npm install -g nodemon
+
+5. cors module import -
+			npm i cors
+
+6. axios module import -
+			npm i axios
+
+=====> Tinder Clone || Database Connection Information <=====
+
+7. mongoDB / database user info -
+    		username - admin
+    		password - PSaj37xZH0XWfQ5Z
+
+8. connection -
+			app_connect_url = "mongodb+srv://admin:PSaj37xZH0XWfQ5Z@cluster0.ulyon.mongodb.net/<tinderDB>?retryWrites=true&w=majority"
