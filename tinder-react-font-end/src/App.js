@@ -1,9 +1,12 @@
 import "./App.css";
 
+// import components
+import Header from "./Components/Header/Header";
+
 function App() {
   return (
     <div className="App">
-      <h1>Tinder Clone React Project</h1>
+      <Header />
     </div>
   );
 }

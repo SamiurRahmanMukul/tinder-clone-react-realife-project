@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+
+  border-radius: 1px solid #f9f9f9;
+  -webkit-border-radius: 1px solid #f9f9f9;
+  -moz-border-radius: 1px solid #f9f9f9;
+  -ms-border-radius: 1px solid #f9f9f9;
+  -o-border-radius: 1px solid #f9f9f9;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tinder_logo {
+  color: #f64d66;
+  width: 50px;
+  height: 50px;
+}
+.tinder_logo:hover {
+  color: hotpink;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+
+.header_logo {
+  object-fit: contain;
+  width: 45px;
+  height: 45px;
+}
+.header_logo:hover {
+  color: hotpink;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
