@@ -56,16 +56,16 @@ const TinderCard = () => {
         {people.map((person) => (
           <ReactTinderCard
             className={Style.Card__Swipe}
-            key={person.names}
+            key={person.name}
             preventSwipe={["up", "down"]}
-            onSwipe={(dir) => swiped(dir, person.names)}
-            onCardLeftScreen={() => outOfFrame(person.names)}
+            onSwipe={(dir) => swiped(dir, person.name)}
+            onCardLeftScreen={() => outOfFrame(person.name)}
           >
             <div
-              style={{ backgroundImage: `url(${person.photo_url})` }}
+              style={{ backgroundImage: `url(${person.img_url})` }}
               className={Style.Main__Card}
             >
-              <h3 className={Style.Person__Name}>{person.names}</h3>
+              <h3 className={Style.Person__Name}>{person.name}</h3>
             </div>
           </ReactTinderCard>
         ))}

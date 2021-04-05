@@ -1,7 +1,7 @@
 {
   "name": "tinder_backend",
   "version": "1.0.0",
-  "description": "Tinder Clone Backend (Node, Express, MongoDB, Firebase)",
+  "description": "Tinder Clone Backend (Node, Express, MongoDB)",
   "main": "server.js",
   "type": "module",
   "scripts": {
